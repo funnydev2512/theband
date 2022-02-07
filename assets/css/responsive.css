@@ -1,0 +1,69 @@
+/* PC RESPONSIVE */
+@media (min-width: 64em) {
+
+}
+
+/* TABLET AND MOBILE RESPONSIVE */
+@media (max-width: 63.9375em){
+    .btn{
+        padding: 15px 13px;
+    }
+    .contact-form .form-control{
+        padding: 14px;
+    }
+    .social-list{
+        font-size: 48px;
+    }
+    #footer .social-list a{
+        margin: 0 8px;
+    }
+    #footer .social-list a{
+        padding: 12px 0;
+        display: inline-block;
+    }
+}
+
+/* TABLET RESPONSIVE */
+@media (min-width: 46.25em) and (max-width: 63.9375em){
+    .contact-info{
+        line-height: 2;
+    }
+}
+
+/* MOBILE RESPONSIVE */
+@media (max-width: 46.1875em){
+    #header{
+        overflow: hidden;
+    }
+    #header .mobile-menu-btn{
+        display: block;
+    }
+    #header .search-btn{
+        display: none;
+    }
+    
+    .s-mt-8{
+        margin-top: 8px !important;
+    }
+
+    #content .member-img{
+        width: 60%;
+        border-radius: 4px;
+    }
+    .s-full-width,
+    .s-col-full{
+        width: 100% !important;
+    }
+    #nav{
+        display: block;
+    }
+    #nav > li{
+        display: block;
+    }
+    #nav .subnav{
+        position: initial;
+    }
+    .contact-form{
+        margin-top: 32px;
+    }   
+}
